@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\sevenseg\sevenseg.ncd
-OUTFILE=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\sevenseg\sevenseg.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s200a-4vq100
-WORKINGDIR=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\sevenseg
-LICENSE=WebPack
-USER_INFO=211667288_0_0_718
