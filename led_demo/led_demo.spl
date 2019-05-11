@@ -1,6 +1,0 @@
-[Inputs]
-CLK
-[Outputs]
-=AN[0:3]=
-=LED[0:3]=
-[BiDir]

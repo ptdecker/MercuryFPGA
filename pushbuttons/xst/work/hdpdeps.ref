@@ -1,8 +1,0 @@
-V3 3
-FL C:/Users/ptdec/OneDrive/Documents/MercuryFPGA/pushbuttons/pushbutton.vhd 2019/05/04.14:28:45 P.20131013
-EN work/pushbutton 1557512234 \
-      FL C:/Users/ptdec/OneDrive/Documents/MercuryFPGA/pushbuttons/pushbutton.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/pushbutton/pb 1557512235 \
-      FL C:/Users/ptdec/OneDrive/Documents/MercuryFPGA/pushbuttons/pushbutton.vhd \
-      EN work/pushbutton 1557512234
