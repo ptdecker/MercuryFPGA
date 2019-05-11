@@ -1,0 +1,39 @@
+#      __  ____                 _   __                
+#    /  |/  (_)_____________  / | / /___ _   ______ _
+#   / /|_/ / / ___/ ___/ __ \/  |/ / __ \ | / / __ `/
+#  / /  / / / /__/ /  / /_/ / /|  / /_/ / |/ / /_/ / 
+# /_/  /_/_/\___/_/   \____/_/ |_/\____/|___/\__,_/  
+#                                                  
+# Mercury BASEBOARD User Constraints File
+# Revision 1.0.0 (03/25/2015)
+# Copyright (c) 2015 MicroNova, LLC
+# www.micro-nova.com
+
+# system oscillators
+#NET "EXT_CLK"   LOC = "P44" | IOSTANDARD = LVTTL ;
+NET "CLK"       LOC = "P43" | IOSTANDARD = LVTTL ;
+#NET "CLK"       TNM_NET = "CLK"; 
+#TIMESPEC        "TS_CLK" = PERIOD "CLK" 20 ns HIGH 50 %;
+
+# user LEDs and button
+NET "LED0"  	LOC = "P13" | IOSTANDARD = LVTTL ;
+NET "LED1"  	LOC = "P15" | IOSTANDARD = LVTTL ;
+#NET "LED<2>"	LOC = "P16" | IOSTANDARD = LVTTL ;
+#NET "LED<3>"    LOC = "P19" | IOSTANDARD = LVTTL ;
+
+# SWITCHES
+NET "SW0"  	LOC = "P59" | IOSTANDARD = LVTTL ;
+#NET "SW<0>"  	LOC = "P59" | IOSTANDARD = LVTTL ;
+#NET "SW<1>"     LOC = "P60" | IOSTANDARD = LVTTL ;
+#NET "SW<2>"     LOC = "P61" | IOSTANDARD = LVTTL ;
+#NET "SW<3>"     LOC = "P62" | IOSTANDARD = LVTTL ;
+#NET "SW<4>"     LOC = "P64" | IOSTANDARD = LVTTL ;
+#NET "SW<5>"     LOC = "P57" | IOSTANDARD = LVTTL ;
+#NET "SW<6>"     LOC = "P56" | IOSTANDARD = LVTTL ;
+#NET "SW<7>"     LOC = "P52" | IOSTANDARD = LVTTL ;
+
+# 7 SEG
+NET "AN<0>"      LOC = "P50" | IOSTANDARD = LVTTL ;
+NET "AN<1>"      LOC = "P49" | IOSTANDARD = LVTTL ;
+NET "AN<2>"      LOC = "P85" | IOSTANDARD = LVTTL ;
+NET "AN<3>"      LOC = "P84" | IOSTANDARD = LVTTL ;

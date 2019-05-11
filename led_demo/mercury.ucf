@@ -1,0 +1,28 @@
+#      __  ____                 _   __                
+#    /  |/  (_)_____________  / | / /___ _   ______ _
+#   / /|_/ / / ___/ ___/ __ \/  |/ / __ \ | / / __ `/
+#  / /  / / / /__/ /  / /_/ / /|  / /_/ / |/ / /_/ / 
+# /_/  /_/_/\___/_/   \____/_/ |_/\____/|___/\__,_/  
+#                                                  
+# Mercury User Constraints File
+# Revision 1.0.142 (10/24/2012)
+# Copyright (c) 2012 MicroNova, LLC
+# www.micro-nova.com
+
+# system oscillator
+NET "CLK"  LOC = "P43" | IOSTANDARD = LVTTL ;
+NET "CLK"  TNM_NET = "CLK"; 
+TIMESPEC "TS_CLK" = PERIOD "CLK" 20 ns HIGH 50 %;
+SYSTEM_JITTER = 20 ns;
+
+# user LEDs and button
+NET "LED<0>"  	 LOC = "P13" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "LED<1>"    LOC = "P15" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "LED<2>"	 LOC = "P16" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "LED<3>"    LOC = "P19" | IOSTANDARD = LVTTL | SLEW = FAST ;
+
+# 7 SEG Anodes
+NET "AN<0>"      LOC = "P50" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "AN<1>"      LOC = "P49" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "AN<2>"      LOC = "P85" | IOSTANDARD = LVTTL | SLEW = FAST ;
+NET "AN<3>"      LOC = "P84" | IOSTANDARD = LVTTL | SLEW = FAST ;

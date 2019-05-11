@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\toggle\pushbutton.ncd
+OUTFILE=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\toggle\pushbutton.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s200a-4vq100
+WORKINGDIR=C:\Users\ptdec\OneDrive\Documents\MercuryFPGA\toggle
+LICENSE=WebPack
+USER_INFO=211667288_0_0_718

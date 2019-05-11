@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="21">
+<DesignStatistics TimeStamp="Sun May 05 15:03:39 2019"><group name="NetStatistics">
+<item name="NumNets_Active" rev="21">
+<attrib name="value" value="27"/></item>
+<item name="NumNets_Gnd" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="21">
+<attrib name="value" value="36"/></item>
+<item name="NumNodesOfType_Active_DUMMY" rev="21">
+<attrib name="value" value="28"/></item>
+<item name="NumNodesOfType_Active_DUMMYESC" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_HFULLHEX" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="21">
+<attrib name="value" value="35"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_OMUX" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="21">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Active_PREBXBY" rev="21">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Active_VUNIHEX" rev="21">
+<attrib name="value" value="12"/></item>
+<item name="NumNodesOfType_Gnd_DOUBLE" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OMUX" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Vcc_VCCOUT" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFMLR" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="IBUF-DIFFSLR" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="IOB-DIFFMLR" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="IOB-DIFFMTB" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="IOB-DIFFSLR" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="IOB-DIFFSTB" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="SLICEL-SLICEM" rev="21">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="20">
+<attrib name="value" value="16"/></item>
+<item name="AGG_IO" rev="20">
+<attrib name="value" value="16"/></item>
+<item name="AGG_SLICE" rev="20">
+<attrib name="value" value="4"/></item>
+<item name="NUM_4_INPUT_LUT" rev="20">
+<attrib name="value" value="7"/></item>
+<item name="NUM_BONDED_IBUF" rev="20">
+<attrib name="value" value="4"/></item>
+<item name="NUM_BONDED_IOB" rev="20">
+<attrib name="value" value="12"/></item>
+<item name="NUM_SLICEL" rev="20">
+<attrib name="value" value="4"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Sun May 05 15:03:39 2019"><group name="SiteSummary">
+<item name="IBUF" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_DELAY_ADJ_BBOX" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_INBUF" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IBUF_PAD" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="IOB" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="IOB_OUTBUF" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="IOB_PAD" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="SLICEL" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="SLICEL_F" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="3"/></item>
+<item name="SLICEL_G" rev="21">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Sun May 05 15:03:39 2019"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="21">
+<attrib name="LVTTL" value="4"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="21">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="12"/></item>
+<item name="SUSPEND" rev="21">
+<attrib name="3STATE" value="12"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="DELAY_ADJ_ATTRBOX" rev="21">
+<attrib name="FIXED" value="4"/></item>
+<item name="IBUF_DELAY_VALUE" rev="21">
+<attrib name="DLY0" value="4"/></item>
+<item name="IFD_DELAY_VALUE" rev="21">
+<attrib name="DLY0" value="4"/></item>
+<item name="SEL_IN" rev="21">
+<attrib name="SEL_IN" value="4"/><attrib name="SEL_IN_INV" value="0"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="21">
+<attrib name="12" value="12"/></item>
+<item name="IOATTRBOX" rev="21">
+<attrib name="LVTTL" value="12"/></item>
+<item name="SLEW" rev="21">
+<attrib name="SLOW" value="12"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="21">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="12"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Sun May 05 15:03:39 2019"><group name="IBUF_PAD">
+<item name="PAD" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="OUT" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SLICEL">
+<item name="F1" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="F2" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="F3" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="F4" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="G1" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="G2" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="G3" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="G4" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="X" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="Y" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="21">
+<attrib name="value" value="12"/></item>
+<item name="OUT" rev="21">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="PAD" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="IBUF_OUT" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="SEL_IN" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="21">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="21">
+<attrib name="value" value="12"/></item>
+<item name="PAD" rev="21">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="SLICEL_F">
+<item name="A1" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="D" rev="21">
+<attrib name="value" value="3"/></item>
+</group>
+<group name="SLICEL_G">
+<item name="A1" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="D" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

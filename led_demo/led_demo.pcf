@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 05 14:50:58 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+SYSTEM_JITTER = 20000 ps;
+COMP "LED<0>" LOCATE = SITE "P13" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P15" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P16" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P19" LEVEL 1;
+COMP "AN<0>" LOCATE = SITE "P50" LEVEL 1;
+COMP "AN<1>" LOCATE = SITE "P49" LEVEL 1;
+COMP "AN<2>" LOCATE = SITE "P85" LEVEL 1;
+COMP "AN<3>" LOCATE = SITE "P84" LEVEL 1;
+COMP "CLK" LOCATE = SITE "P43" LEVEL 1;
+TIMEGRP CLK = BEL "pulse" BEL "count_0" BEL "count_1" BEL "count_2" BEL
+        "count_3" BEL "count_4" BEL "count_5" BEL "count_6" BEL "count_7" BEL
+        "count_8" BEL "count_9" BEL "count_10" BEL "count_11" BEL "count_12"
+        BEL "count_13" BEL "count_14" BEL "count_15" BEL "count_16" BEL
+        "count_17" BEL "count_18" BEL "count_19" BEL "count_20" BEL "count_21"
+        BEL "count_22" BEL "count_23" BEL "count_24" BEL "count_25" BEL
+        "CLK_BUFGP/BUFG.GCLKMUX" BEL "CLK_BUFGP/BUFG";
+TS_CLK = PERIOD TIMEGRP "CLK" 20 ns HIGH 50%;
+SCHEMATIC END;
+
