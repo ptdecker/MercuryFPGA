@@ -46,3 +46,10 @@ netlist.lst
 webtalk_pn.xml
 webtalk.log
 *_summary.*
+*.projectmgr
+*.gise
+*.sym
+*.xise
+*.xwbt
+sch2HdlBatchFile
+schematic.*
