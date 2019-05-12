@@ -1,7 +1,6 @@
 
 #Xilinx IDE
 
-*.xmsgs
 *.bgn
 *.bit
 *.bld
@@ -45,11 +44,14 @@ netlist.lst
 *.xbcd
 webtalk_pn.xml
 webtalk.log
-*_summary.*
 *.projectmgr
-*.gise
 *.sym
-*.xise
 *.xwbt
 sch2HdlBatchFile
 schematic.*
+bitgen.xmsgs
+map.xmsgs
+ngdbuild.xmsgs
+par.xmsgs
+trce.xmsgs
+xst.xmsgs
